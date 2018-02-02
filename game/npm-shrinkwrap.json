@@ -1,0 +1,11 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "dependencies": {
+    "@akashic-extension/akashic-tile": {
+      "version": "2.0.0",
+      "from": "@akashic-extension/akashic-tile@latest",
+      "resolved": "https://registry.npmjs.org/@akashic-extension/akashic-tile/-/akashic-tile-2.0.0.tgz"
+    }
+  }
+}

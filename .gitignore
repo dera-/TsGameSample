@@ -1,0 +1,4 @@
+.idea
+node_modules
+game/node_modules
+game/script/*.js

@@ -1,0 +1,52 @@
+{
+	"width": 640,
+	"height": 480,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"bgImg": {
+			"type": "image",
+			"path": "image/background.jpg",
+			"width": 640,
+			"height": 480
+		},
+		"testCharaImg": {
+			"type": "image",
+			"path": "image/character.png",
+			"width": 96,
+			"height": 128
+		},
+		"pointerImg": {
+			"type": "image",
+			"path": "image/pointer.png",
+			"width": 960,
+			"height": 768
+		},
+		"walkSe": {
+			"type": "audio",
+			"path": "music/walk",
+			"systemId": "sound"
+		},
+		"battleBgm": {
+			"type": "audio",
+			"path": "music/suneo",
+			"systemId": "music",
+			"loop": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-tile/lib/Tile.js",
+		"node_modules/@akashic-extension/akashic-tile/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-tile": "node_modules/@akashic-extension/akashic-tile/lib/index.js"
+	}
+}
